@@ -3,15 +3,15 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
+# Set up Streamlit page configuration
+st.set_page_config(page_title="Interactive HR Dashboard", layout="wide")
+
 # Load CSS file
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 # Load dataset
 df = pd.read_csv('HRDataset_v14.csv')
-
-# Set up Streamlit page
-st.set_page_config(page_title="Interactive HR Dashboard", layout="wide")
 
 # Dashboard title
 st.title("Interactive HR Dashboard")
