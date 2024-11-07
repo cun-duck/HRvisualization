@@ -22,14 +22,14 @@ h1 {
 
 .stButton>button {
     background-color: #4b8bbe;
-    color: #fff;
+    color: #34ebcf;
     border-radius: 5px;
     padding: 10px;
 }
 
 .stButton>button:hover {
     background-color: #336699;
-    color: #ffffff;
+    color: #34ebcf;
 }
 
 .stDataFrame {
